@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    font-family:'Libre Baskerville', serif;
+    font-size: large;
+    margin: 15px;
+    background-color: #090e0e;
+}
+
+.lightdark{
+    display: flex;
+    justify-content: end;
+}
+
+.ld{
+    border-radius: 30%;
+}
+
+.icons{ 
+    gap:25px;
+    background-color: #c8f7f0;
+}
+
+.imga{
+    background-color: #c8f7f0;
+    border-radius: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+.img{
+    height: 350px;
+    border-radius: 70%;
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    margin-left: 18px;
+}
+
+.intro{
+    background-color: #c8f7f0;
+    border-radius: 50px;
+    margin-top: 3px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.loc{
+    background-color: #c8f7f0;
+}
+
+.descp{
+    padding:50px;
+}
+
+.design{
+    background-color: #c8f7f0;
+}
+
+.projects{
+    text-align: center;
+    padding: 10px;
+}
+
+.leave{
+    text-align: center;
+    background-color: #c8f7f0;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.txt{
+    background-color:#090e0e;
+    color:#ffffff;
+    width: 700px;
+    height: 39px;
+    padding: 10px;
+    font-size: 20px;
+    margin:0;
+    border-radius: 15px;
+}
+
+.btn{
+    background-color: #090e0e;
+    width: 85px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.sty{
+    height: 600px;
+    width: 600px;
+    flex: 0 0 auto;
+    padding: 10px;
+    color: white;
+}
+
+hr{
+    background-color: #ffffff;
+    border: none;
+    height: 2px;
+}
+
+.scroll{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px;
+    padding: 20px;
+    scrollbar-width: thin;
+}
+
+
+
